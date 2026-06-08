@@ -65,6 +65,9 @@ p{
 
 .grid img{
     width: 100%;
+    border: 5px solid;
+    padding: 5px;
+    background-color: #ffc18c;
 }
 
 .flex{
