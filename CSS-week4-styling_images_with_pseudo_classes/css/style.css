@@ -50,8 +50,8 @@ div {
 } */
 
 /* Compare that to styling all of the images */
-/* 
-div img{
+
+/* div img{
     border: 8px solid black;
 } */
 
@@ -70,8 +70,8 @@ div:nth-child(odd) img{
 } */
 
 /* Style all of the even divs */
-
-/* div:nth-child(even){
+/* 
+div:nth-child(even){
     border: 8px solid black;
 } */
 
@@ -111,12 +111,12 @@ div:nth-child(3n+3){
     border: 8px solid green;
     position: relative;
     top: -50px;
-}
- */
+} */
+
 
 /* Remove the border on hover */
 
-main div:hover {
+/* main div:hover {
   border-style: none;
-}
+} */
 

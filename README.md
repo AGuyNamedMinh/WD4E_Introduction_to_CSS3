@@ -7,4 +7,4 @@ https://github.com/academic-innovation-online-learning/WD4E-Intro_to_CSS3.
 Assigment(s) made with the fork and published via GitHub Pages:<br>
 1. Homework One: [https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week1-HW1/](https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week1-HW1/)
 2. Homework Two: [https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week2-HW2/](https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week2-HW2/)
-3. Final Project: (TBA)
+3. Final Project: [https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week4-FinalProject/cpus.html](https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week4-FinalProject/cpus.html)

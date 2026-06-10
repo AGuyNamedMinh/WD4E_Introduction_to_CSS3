@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #5598d7;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #222;
+    padding: 20px;
+}
+
+nav ul {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #444;
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: "Space Mono", monospace;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: "Space Mono", monospace;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    transition: left 0.2s ease;
+}
+
+.cpu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cpu-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.gpu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gpu-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.laptop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.laptop-grid img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
